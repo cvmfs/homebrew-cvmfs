@@ -5,7 +5,6 @@ cask "cvmfs" do
     desc "Filesystem client for accessing scientific data using macOS FUSE"
     homepage "https://cernvm.cern.ch/fs/"
   
-    on_macos do
     # Declare dependency on another cask
     depends_on cask: "macos-fuse-t/homebrew-cask/fuse-t"
 
